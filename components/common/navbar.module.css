@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+.navlinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 40%;
+}
+
+.navlink {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.brandImg {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.brandWordMark {
+  width: 400px;
+}
