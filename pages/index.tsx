@@ -76,8 +76,8 @@ const IndexPage = () => (
     </Grid>
     <div style={{ height: "50px" }}></div>
 
-    <Grid container xs={12}>
-      <Grid item xs={12} justify={"center"} align={"center"}>
+    <Grid container xs={12} justify="center" align="center">
+      <Grid item xs={12}>
         <button>
           <h1>Let's Talk</h1>
         </button>
