@@ -1,6 +1,5 @@
 import Layout from "../components/Layout";
 import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
 
 const IndexPage = () => (
   <Layout title="Thomas Amiri Product Designer Portfolio">
@@ -76,8 +75,14 @@ const IndexPage = () => (
     </Grid>
     <div style={{ height: "50px" }}></div>
 
-    <Grid container xs={12} justify="center" align="center">
-      <Grid item xs={12}>
+    <Grid
+      container
+      xs={12}
+      direction="row"
+      justify="center"
+      alignItems="center"
+    >
+      <Grid item>
         <button>
           <h1>Let's Talk</h1>
         </button>
